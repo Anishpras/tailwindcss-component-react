@@ -1,0 +1,41 @@
+{
+  "name": "tailwindcss-components-react",
+  "version": "1.0.0",
+  "description": "This is a component library for react, next and preact.",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "npm version patch && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anishpras/tailwindcss-component-react.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "component",
+    "library",
+    "react",
+    "preact",
+    "nextjs",
+    "Anishpras",
+    "anish prashun"
+  ],
+  "bugs": {
+    "url": "https://github.com/Anishpras/tailwindcss-component-react/issues"
+  },
+  "homepage": "https://github.com/Anishpras/tailwindcss-component-react#readme",
+  "devDependencies": {
+    "autoprefixer": "10.2.4",
+    "postcss": "8.2.5",
+    "tailwindcss": "2.0.2"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Anishpras",
+  "license": "MIT"
+}

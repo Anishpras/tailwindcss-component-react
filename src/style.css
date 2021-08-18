@@ -1,0 +1,7 @@
+input[type="text"]:focus ~ .input-text-xl {
+  @apply text-blue-500 bg-black transform -translate-y-6 -translate-x-4 scale-75;
+}
+
+input[type="text"]:focus ~ .input-text-l {
+  @apply text-blue-500 bg-black transform -translate-y-4 -translate-x-2 scale-50;
+}
